@@ -9,4 +9,4 @@ RUN uv sync --locked
 
 COPY homework_pipeline.py .
 
-ENTRYPOINT ["python", "pipeline.py"]
+ENTRYPOINT ["uv", "run", "python", "homework_pipeline.py"]
