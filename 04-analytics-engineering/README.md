@@ -1,0 +1,1 @@
+Execute script as $uv run python load_taxi_data.py 
