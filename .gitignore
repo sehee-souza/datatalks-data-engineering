@@ -257,3 +257,7 @@ terraform.rc
 !spec/*.json
 
 *.parquet
+.bruin.yml
+logs/runs
+logs/*.log
+*.py[cod]
